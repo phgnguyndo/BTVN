@@ -16,9 +16,7 @@ int main(){
 		for(int j = 0;j < n;j++){
 			in >> arr[i][j];
 			if(arr[i][j]){
-				if(i < j){
 					dscanh << i+1 << "   " << j+1<< endl;
-				}
 			dske << j+1 << " ";
 			}
 		}
