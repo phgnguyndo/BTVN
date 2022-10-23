@@ -32,7 +32,7 @@ int main(){
 	out <<endl << "Danh sach canh cua do thi: " << endl;
 	for(int i = 0;i < n;i++){
 		for(int j = 0;j < n;j++){
-			if(arr[i][j]&&i<j){
+			if(arr[i][j]){
 				cout << i+1 << "   " << j+1<< endl;
 				out << i+1 << "   " << j+1<< endl;
 			}
